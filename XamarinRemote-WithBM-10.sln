@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRemote-WithBM-10.Android", "XamarinRemote-WithBM-10\XamarinRemote-WithBM-10.Android\XamarinRemote-WithBM-10.Android.csproj", "{582CF34E-6D8B-4408-A23C-912AE97B307A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinRemote-WithBM-10", "XamarinRemote-WithBM-10\XamarinRemote-WithBM-10\XamarinRemote-WithBM-10.csproj", "{29242F60-9DB3-4F93-B6AE-18ADB984C39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582CF34E-6D8B-4408-A23C-912AE97B307A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29242F60-9DB3-4F93-B6AE-18ADB984C39B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B903F77F-94CC-4BC5-B2F7-020E98D76C26}
+	EndGlobalSection
+EndGlobal

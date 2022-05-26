@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinRemote_WithBM_10.Views.AboutPage"
+             xmlns:vm="clr-namespace:XamarinRemote_WithBM_10.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BG">#7ba686</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="{StaticResource BG}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                    <Image Source="BTLogo.png" VerticalOptions="Center" HeightRequest="64" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout BackgroundColor="{StaticResource BG}" Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="Welcome to my Infrared dublicator app!" FontSize="Title"/>
+                <Label Text="Press the button below to connect to the infrared detector and start making your own remotes!" FontSize="Body"/>
+                <Button Margin="0,10,0,0" Text="Try to connect"
+                        Command="{Binding TryToConnect}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+                <Button Margin="0,20,0,0" Text="Stop search" 
+                        Command="{Binding StopConnect}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
